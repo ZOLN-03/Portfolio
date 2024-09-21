@@ -1,0 +1,148 @@
+.main-container{
+    color: #f3f3f3;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navitems{
+    list-style: none;
+    color:#9c9c9c;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 25%;
+    height: 25px;
+    /* background-color: black; */
+}
+.navitems li:hover {
+    color: black;
+    
+}
+#Header{
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+    padding-left: 250px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.span{
+    color: #9c9c9c;
+}
+.Quote {
+    font-size: 90px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+#pass-font{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: 1600;
+    
+}
+#pass-position{
+    margin-top: 120px ;
+}
+.color-grey{
+    color: #9c9c9c;
+}
+.abt-cont{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.abt-dp{
+    width: 45%;
+
+}
+.abt-txt{
+    width: 45%;
+    color: black;
+}
+.abt-txt p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 550;
+    margin-top: 0;
+}
+.Exp-cont{
+    display: flex;
+}
+.Exp-left{
+    color: black;
+    width: 30%;
+
+}
+.Exp-right{
+    list-style: none;
+    width: 70%;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Skill-cont{
+    display: flex;
+}
+.Skill-left{
+    color: black;
+    width: 30%;
+
+}
+.Skill-right{
+    list-style: none;
+    width: 70%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.Skill-right-first{
+    list-style: none;
+    display: flex;
+}
+.Skill-right-second{
+    list-style: none;
+    display: flex;   
+}
+.li-1-gap{
+    width: 40.5% ;
+    
+}
+.li-2-gap{
+    width: 59.5%;
+}
+.mail-container{
+
+    display: flex;
+}
+.mail-name{
+    width: 40%;
+    color: #9c9c9c;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.mail-id{
+    width: 60%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.bottom-txt{
+    font-size: 60px;
+    color: black;
+    text-align: center;
+}
