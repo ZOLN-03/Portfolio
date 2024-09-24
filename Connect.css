@@ -1,5 +1,7 @@
+body{
+    background-color: #f3f3f3;
+}
 .main-container{
-    color: #f3f3f3;
     margin-left: 45px;
     margin-right: 45px;
     margin-top: 20px;
@@ -66,24 +68,99 @@
 #list2{
     list-style: none;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .w-h{
     width: 100%;
     height: 65px;
+    
 }
 input{
-    border-width: ;
+    font-size: 18px;   
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+input:hover{
+    text-decoration: inherit;
 }
 input::placeholder {
     font-size: 18px;   
-    padding-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    font-size: 18px; 
+    padding-top: 20px;   
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-left: 20px;
 }
 textarea::placeholder{
     font-size: 18px;   
-    padding-left: 20px;
-    padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.submit-button-cont{
+    padding-left: 35%;
+}
+.submit-button{
+    width: 30%;
+    height: 50px;
+    background-color: white;
+    border-width: 1px;
+    border-color: gray;
+    border: none;
+    border-radius: 50px;
+}
+.submit-button:hover{
+    transition: 1s ease;
+    transform: scale(1.05);
+
+}
+.Icons {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.li3 {
+    border: solid;
+    border-width: 1px;
+    border-radius: 1px;
+    border-color: #c3c3c3;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li3:hover {
+    transition: all 0.4s ease;
+    transform: scale(1.01);
+
+}
+
+
+.mail-container{
+
+    display: flex;
+}
+.mail-name{
+    width: 40%;
+    color: #9c9c9c;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.mail-id{
+    width: 60%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.bottom-txt{
+    font-size: 60px;
+    color: black;
+    text-align: center;
 }

@@ -1,5 +1,7 @@
+body{
+    background-color: #f3f3f3;
+}
 .main-container{
-    color: #f3f3f3;
     margin-left: 45px;
     margin-right: 45px;
     margin-top: 20px;
